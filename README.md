@@ -9,7 +9,7 @@ The diagram shows the network.
 
 The digram shows the process to deploy the infrastructure.
 
-![alt text](https://github.com/j-ads/AIM-Project/blob/main/processd.jpg?raw=true)
+![alt text](https://github.com/j-ads/AIM-Project/blob/main/processd.JPG?raw=true)
 
 ## Set Up
 
