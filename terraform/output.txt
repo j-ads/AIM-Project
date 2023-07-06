@@ -1,0 +1,96 @@
+frontend Public IP:
+Backend-A Public IP:
+Backend-B Public IP:
+Bastion Public IP:
+Load Balancer Endpoint DNS:
+lb-648733835.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+F8Cpvc5oUozmp0j1WO9jZiVa
+frontend Public IP:
+3.126.152.117
+Backend-A Public IP:
+Backend-B Public IP:
+Bastion Public IP:
+Load Balancer Endpoint DNS:
+lb-717973750.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+2JIuC9iJiqSOw2YOwagSc2x8
+frontend Public IP:
+Backend-A Public IP:
+Backend-B Public IP:
+Bastion Public IP:
+Load Balancer Endpoint DNS:
+lb-454480211.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+LWQY28Rej757obLoEIOiHw5t
+frontend Public IP:
+Backend-A Public IP:
+Backend-B Public IP:
+Bastion Public IP:
+Load Balancer Endpoint DNS:
+lb-554282041.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+A8BMvWrumPPJXYGgE42OJ5oG
+frontend Public IP:
+18.196.157.75
+Backend-A Public IP:
+10.10.3.201
+Backend-B Public IP:
+10.10.4.138
+Bastion Public IP:
+52.57.167.12
+Load Balancer Endpoint DNS:
+lb-1792236788.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+fz1OckZgOjtbqLJuI9OMrvcJ
+frontend Public IP:
+Backend-A Public IP:
+10.10.3.240
+Backend-B Public IP:
+10.10.4.204
+Bastion Public IP:
+3.122.54.218
+Load Balancer Endpoint DNS:
+lb-543380404.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+M7O6Ipmyo7KGTCtWDntOWRgd
+frontend Public IP:
+18.159.97.189
+Backend-A Public IP:
+10.10.3.118
+Backend-B Public IP:
+10.10.4.206
+Bastion Public IP:
+35.156.232.127
+Load Balancer Endpoint DNS:
+lb-46255727.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+dCiC13Y98wnOKndQb0B18H5z
+frontend Public IP:
+3.122.204.209
+Backend-A Public IP:
+10.10.3.122
+Backend-B Public IP:
+10.10.4.134
+Bastion Public IP:
+18.193.45.202
+Load Balancer Endpoint DNS:
+lb-906846810.eu-central-1.elb.amazonaws.com
+Website Adress:
+http://www.sixitnews.click
+Database Password:
+HTAoEvruHI2jWahtnWFAwU0w

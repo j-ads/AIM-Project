@@ -1,0 +1,11 @@
+
+ec2_user = "ec2-user"
+private_key_public = "keys/publickey"
+private_key_private = "keys/privatekey"
+public_key_public = "keys/publickey.pub"
+public_key_private = "keys/privatekey.pub"
+ssh_location          = "0.0.0.0"
+region                = "eu-central-1"
+rds_name = "dbAim"
+rds_username = "aimadmin"
+rds_pw = "thisIsASafePW123!"

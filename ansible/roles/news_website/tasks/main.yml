@@ -1,0 +1,36 @@
+---    
+- name: copy website files to target
+  copy:
+    src: "{{ item }}"
+    dest: /var/www/html/
+  with_fileglob:
+    - ../../files/website/*
+
+- name: copy template files to target
+  template:
+    src: ../../files/templates/scripts.js.j2
+    dest: /var/www/html/scripts.js
+
+- name: reload service httpd, in all cases
+  systemd:
+    name: httpd
+    state: reloaded
+
+- name: Install gitlab runner
+  shell: |
+    curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash; \
+    sudo yum -y install gitlab-runner; \
+    sudo gitlab-runner start
+  args:
+    creates: /usr/bin/gitlab-runner
+
+- name: Register gitlab shell runner
+  command: |
+    gitlab-runner register \
+    --non-interactive \
+    --url "https://git.fhict.nl/" \
+    --registration-token "n1qB_83sULE5B5Wwv_Cu" \
+    --executor "shell" \
+    --tag-list "aws, shell" \
+    --description "shell runner" \
+    --run-untagged="true"
